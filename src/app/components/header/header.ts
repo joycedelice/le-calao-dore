@@ -7,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './header.css',
 })
 export class Header {
+  isMobile = window.innerWidth < 768;
+  isMenuOpen=false;
+  activeLink='Accueil';
+  links=['Accueil', 'Menu', 'Temoignages','Horaires','Contact'];
 
+  toggleMenu(){
+    this.isMenuOpen=!this.isMenuOpen;
+  }
+  setActive(link: string){
+    this.activeLink=link;
+    this.isMenuOpen=false;
+    
+  }
 }
