@@ -1,0 +1,11 @@
+.line-red {
+    border: none;
+    height: 3px;
+    width: 300px;
+    background-color: red ;
+}
+
+.horaires-title h2 {
+    margin: 0;
+    white-space: nowrap;
+}
