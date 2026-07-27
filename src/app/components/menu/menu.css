@@ -1,0 +1,15 @@
+menu{
+    background-color: #FAF3E0 ;
+    margin-top: 1px;
+}
+.line-red {
+    border: none;
+    height: 3px;
+    width: 300px;
+    background-color:red;
+}
+
+.menu-title h2 {
+    margin: 0;
+    white-space: nowrap;
+}

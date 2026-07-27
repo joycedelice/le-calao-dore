@@ -15,7 +15,7 @@
 .mobile-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(107, 25, 25, 0.2); /* couleur transparente style verre */
+  background: rgba(5, 1, 1, 0.394); 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(160, 39, 39, 0.12);
